@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css"/>
+    <link rel="stylesheet" href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
+    <title>Weather App</title>
+</head>
+<body>
+    <div class="header">
+        <div class="title">
+           Weather Forecast
+        </div>
+        <div class="search-box">
+            <input type="text" placeholder="Search here..." class="search-input" autocomplete="on"/>
+
+            <a href="#" class="search-btn">
+                <i class="fas fa-search"></i>
+            </a>
+        </div>
+
+    </div>
+    <div class="hero">
+        <div class="location-name"></div>
+        <div class="temperature"> 
+            <img class="weather-icon" alt="weathericon"/>
+            <div class="num"></div>
+            <img src="./assets/dry-clean.png"  class="degree" alt="degree"/>
+            <div class="units">
+                <img src="./assets/c.png" class="letter c" alt="c"/>
+                <img src="./assets/f.png" class="letter f" alt="f"/>
+            </div>
+
+            <div class="details">
+                <div class="detail">
+                    <img src="./assets/wind.png" alt="wind" class="wind"/>
+                    <p class="value"></p>
+                </div>
+                <div class="detail">
+                    <img src="./assets/humidity.png" alt="humidity" class="humidity"/>
+                    <p class="value"></p>
+                </div>
+                <div class="detail">
+                    <img src="./assets/barometer.png" alt="pressure" class="pressure"/>
+                    <p class="value"></p>
+                </div>
+            </div>
+        </div>
+        <div class="description"></div>
+        <div class="title-1">Daily Forecast</div>
+        <div class="daily">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="city"></div>
+        <div class="city_lat"></div>
+        <div class="city_lon"></div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
